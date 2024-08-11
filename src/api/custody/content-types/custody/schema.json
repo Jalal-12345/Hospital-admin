@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "custodies",
+  "info": {
+    "singularName": "custody",
+    "pluralName": "custodies",
+    "displayName": "Custody",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Section": {
+      "type": "string"
+    },
+    "ClassResponsible": {
+      "type": "string"
+    },
+    "CardNumber": {
+      "type": "string"
+    },
+    "TypeCustody": {
+      "type": "string"
+    },
+    "DescriptionCustody": {
+      "type": "text"
+    },
+    "ManufactureCompany": {
+      "type": "string"
+    },
+    "Code": {
+      "type": "string"
+    },
+    "LocationCustody": {
+      "type": "string"
+    },
+    "ItemCondition": {
+      "type": "string"
+    },
+    "ExchangeDate": {
+      "type": "date"
+    }
+  }
+}
